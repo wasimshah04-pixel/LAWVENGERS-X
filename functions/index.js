@@ -58,3 +58,4 @@ exports.sendNoticeNotification = functions.database
 
     return Promise.all(tokensToRemove);
   });
+// First deploy
