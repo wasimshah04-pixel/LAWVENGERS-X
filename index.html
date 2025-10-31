@@ -800,7 +800,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- START: NOTIFICATION LOGIC ---
     function setupNotifications(user) {
         // IMPORTANT: Replace with your VAPID key from Firebase Console
-        const vapidKey = "YOUR_VAPID_KEY_FROM_FIREBASE_CONSOLE";
+        const vapidKey = "BGohImLC-1HAsveI0LXFlI37DzaAlPd4Sq1Uwq2BXBcsKjvgzz-OrH4twHLQS-thzi9pqCeT82G1BzJXN1PKJog";
         
         messaging.getToken({ vapidKey: vapidKey }).then((currentToken) => {
             if (currentToken) {
