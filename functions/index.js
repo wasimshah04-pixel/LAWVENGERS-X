@@ -58,4 +58,4 @@ exports.sendNoticeNotification = functions.database
 
     return Promise.all(tokensToRemove);
   });
-// Trying again & again
+// Final attempt
